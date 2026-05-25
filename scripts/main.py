@@ -6,6 +6,7 @@ from pathlib import Path
 import geocode
 import generate_map
 import scrape_estatesales
+import scrape_estatesales_org
 import scrape_gsalr
 
 ROOT = Path(__file__).parent.parent
@@ -47,14 +48,12 @@ def merge(existing: list[dict], new_sales: list[dict]) -> list[dict]:
 
 
 def deduplicate_cross_source(sales: list[dict]) -> list[dict]:
-    """Remove GSALR entries that represent the same physical sale as an EstateSales entry.
+    """Remove duplicate entries across sources.
 
+    Priority: estatesales > estatesales_org > gsalr.
     Match by: close coordinates OR same normalized title, both with overlapping dates.
-    GSALR coordinates can be approximate (city-level for privacy), so title matching
-    is the primary fallback.
     """
-    es_sales = [s for s in sales if s["source"] == "estatesales"]
-    gsalr_sales = [s for s in sales if s["source"] == "gsalr"]
+    import re
 
     def overlaps(a: list[str], b: list[str]) -> bool:
         return bool(set(a) & set(b))
@@ -68,23 +67,26 @@ def deduplicate_cross_source(sales: list[dict]) -> list[dict]:
         )
 
     def normalize_title(t: str) -> str:
-        import re
-        # Strip subtitles after em-dash or " - " separator
         t = re.split(r"\s*[—]\s*|\s+-\s+", t)[0]
         return t.lower().strip()
 
-    unique_gsalr = []
-    for g in gsalr_sales:
-        g_title = normalize_title(g["title"])
-        matched = any(
-            overlaps(g["dates"], e["dates"])
-            and (close(g, e) or normalize_title(e["title"]) == g_title)
-            for e in es_sales
+    def is_duplicate(candidate: dict, reference_list: list[dict]) -> bool:
+        c_title = normalize_title(candidate["title"])
+        return any(
+            overlaps(candidate["dates"], r["dates"])
+            and (close(candidate, r) or normalize_title(r["title"]) == c_title)
+            for r in reference_list
         )
-        if not matched:
-            unique_gsalr.append(g)
 
-    return es_sales + unique_gsalr
+    es_sales = [s for s in sales if s["source"] == "estatesales"]
+    esorg_sales = [s for s in sales if s["source"] == "estatesales_org"]
+    gsalr_sales = [s for s in sales if s["source"] == "gsalr"]
+
+    unique_esorg = [s for s in esorg_sales if not is_duplicate(s, es_sales)]
+    primary = es_sales + unique_esorg
+    unique_gsalr = [s for s in gsalr_sales if not is_duplicate(s, primary)]
+
+    return primary + unique_gsalr
 
 
 def cleanup(sales: list[dict]) -> list[dict]:
@@ -114,11 +116,14 @@ def main() -> None:
     print("Scraping EstateSales.net...")
     es_sales = scrape_estatesales.scrape(state, cities)
 
+    print("Scraping EstateSales.org...")
+    esorg_sales = scrape_estatesales_org.scrape(state, cities)
+
     print("Scraping GSALR...")
     gsalr_sales = scrape_gsalr.scrape(state, gsalr_city)
 
     print("Geocoding missing coordinates...")
-    all_new = geocode.geocode_missing(es_sales + gsalr_sales)
+    all_new = geocode.geocode_missing(es_sales + esorg_sales + gsalr_sales)
 
     print("Loading existing sales...")
     existing = load_sales()
