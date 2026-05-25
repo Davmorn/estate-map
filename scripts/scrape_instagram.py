@@ -86,6 +86,7 @@ def _build_loader() -> instaloader.Instaloader:
         download_comments=False,
         save_metadata=False,
         compress_json=False,
+        max_connection_attempts=1,
     )
     username = os.environ.get("INSTAGRAM_USERNAME", "").strip()
     password = os.environ.get("INSTAGRAM_PASSWORD", "").strip()
@@ -100,7 +101,7 @@ def _build_loader() -> instaloader.Instaloader:
         except Exception as e:
             print(f"  [instagram] Login failed ({e}); continuing without login")
     else:
-        print("  [instagram] No credentials set; fetching without login")
+        print("  [instagram] No credentials set; fetching without login (may be blocked from CI)")
     return loader
 
 
@@ -115,8 +116,20 @@ def scrape(profiles: list[str]) -> list[dict]:
     for username in profiles:
         try:
             profile = instaloader.Profile.from_username(loader.context, username)
-        except instaloader.exceptions.ProfileNotExistsException:
-            print(f"  [instagram] Profile not found: {username}")
+        except instaloader.exceptions.ProfileNotExistsException as e:
+            # A 403 from Instagram (blocked IP / no login) surfaces as ProfileNotExistsException.
+            # Distinguish it from a genuinely missing profile so the error is actionable.
+            msg = str(e).lower()
+            if "403" in msg or "forbidden" in msg or "bad request" in msg:
+                print(f"  [instagram] Blocked fetching {username} (403) — set INSTAGRAM_USERNAME/PASSWORD secrets")
+            else:
+                print(f"  [instagram] Profile not found: {username}")
+            continue
+        except instaloader.exceptions.ConnectionException as e:
+            if "403" in str(e) or "Forbidden" in str(e):
+                print(f"  [instagram] Blocked fetching {username} (403) — set INSTAGRAM_USERNAME/PASSWORD secrets")
+            else:
+                print(f"  [instagram] Connection error for {username}: {e}")
             continue
         except Exception as e:
             print(f"  [instagram] Could not load profile {username}: {e}")
