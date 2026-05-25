@@ -8,6 +8,7 @@ import generate_map
 import scrape_estatesales
 import scrape_estatesales_org
 import scrape_gsalr
+import scrape_instagram
 
 ROOT = Path(__file__).parent.parent
 SALES_PATH = ROOT / "data" / "sales.json"
@@ -81,12 +82,15 @@ def deduplicate_cross_source(sales: list[dict]) -> list[dict]:
     es_sales = [s for s in sales if s["source"] == "estatesales"]
     esorg_sales = [s for s in sales if s["source"] == "estatesales_org"]
     gsalr_sales = [s for s in sales if s["source"] == "gsalr"]
+    ig_sales = [s for s in sales if s["source"] == "instagram"]
 
     unique_esorg = [s for s in esorg_sales if not is_duplicate(s, es_sales)]
     primary = es_sales + unique_esorg
     unique_gsalr = [s for s in gsalr_sales if not is_duplicate(s, primary)]
+    primary = primary + unique_gsalr
+    unique_ig = [s for s in ig_sales if not is_duplicate(s, primary)]
 
-    return primary + unique_gsalr
+    return primary + unique_ig
 
 
 def cleanup(sales: list[dict]) -> list[dict]:
@@ -111,6 +115,7 @@ def main() -> None:
     state = region["estatesales_state"]
     cities = region["estatesales_cities"]
     gsalr_city = region.get("gsalr_primary_city", cities[0])
+    ig_profiles = region.get("instagram_profiles", [])
     region_name = region["name"]
 
     print("Scraping EstateSales.net...")
@@ -122,8 +127,11 @@ def main() -> None:
     print("Scraping GSALR...")
     gsalr_sales = scrape_gsalr.scrape(state, gsalr_city)
 
+    print("Scraping Instagram...")
+    ig_sales = scrape_instagram.scrape(ig_profiles)
+
     print("Geocoding missing coordinates...")
-    all_new = geocode.geocode_missing(es_sales + esorg_sales + gsalr_sales)
+    all_new = geocode.geocode_missing(es_sales + esorg_sales + gsalr_sales + ig_sales)
 
     print("Loading existing sales...")
     existing = load_sales()
