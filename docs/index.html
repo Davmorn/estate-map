@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Estate Sales — Boise Metro</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body { font-family: system-ui, sans-serif; }
+    #map { height: 100vh; width: 100%; }
+    #info-bar {
+      position: fixed; top: 10px; left: 50%; transform: translateX(-50%);
+      z-index: 1000; background: rgba(255,255,255,0.95);
+      padding: 8px 16px; border-radius: 20px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+      font-size: 14px; white-space: nowrap;
+    }
+    .popup-title { font-weight: 600; font-size: 14px; margin-bottom: 4px; }
+    .popup-company { color: #666; font-size: 12px; margin-bottom: 4px; }
+    .popup-address { font-size: 13px; margin-bottom: 4px; }
+    .popup-dates { font-size: 12px; color: #444; margin-bottom: 6px; }
+    .popup-link { font-size: 12px; }
+    .popup-link a { color: #0066cc; text-decoration: none; }
+    .popup-link a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div id="info-bar">Estate Sales — Boise Metro &nbsp;|&nbsp; <span id="count"></span></div>
+  <div id="map"></div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script>
+    const sales = [
+  {
+    "id": "es-4908204",
+    "source": "estatesales",
+    "title": "2-Day Melba Farmhouse Estate",
+    "company": "Americana Estate Services",
+    "address": "Melba, ID 83641",
+    "street": "",
+    "city": "Melba",
+    "state": "ID",
+    "zip": "83641",
+    "dates": [
+      "2026-05-29",
+      "2026-05-30"
+    ],
+    "url": "https://www.estatesales.net/ID/Melba/83641/4908204",
+    "lat": 43.367533,
+    "lng": -116.577911
+  },
+  {
+    "id": "es-4919316",
+    "source": "estatesales",
+    "title": "The Smith Estate Sale - SE Boise - Columbia Village - Antiques, Tools, Furniture, Collectibles",
+    "company": "Bates Estate Sales - Boise",
+    "address": "5085 S Council Bluffs Way, Boise, ID 83716",
+    "street": "5085 S Council Bluffs Way",
+    "city": "Boise",
+    "state": "ID",
+    "zip": "83716",
+    "dates": [
+      "2026-05-29",
+      "2026-05-30",
+      "2026-05-31"
+    ],
+    "url": "https://www.estatesales.net/ID/Boise/83716/4919316",
+    "lat": 43.55593,
+    "lng": -116.142468
+  },
+  {
+    "id": "es-4926720",
+    "source": "estatesales",
+    "title": "Eagle Massive Estate sale",
+    "company": "Estate Liquidators Of Idaho",
+    "address": "Eagle, ID 83616",
+    "street": "",
+    "city": "Eagle",
+    "state": "ID",
+    "zip": "83616",
+    "dates": [
+      "2026-05-28",
+      "2026-05-29",
+      "2026-05-30"
+    ],
+    "url": "https://www.estatesales.net/ID/Eagle/83616/4926720",
+    "lat": 43.760582,
+    "lng": -116.387926
+  },
+  {
+    "id": "es-4932375",
+    "source": "estatesales",
+    "title": "Kuna Estate Sale",
+    "company": "Idaho Estate Transition Solutions",
+    "address": "Kuna, ID 83634",
+    "street": "",
+    "city": "Kuna",
+    "state": "ID",
+    "zip": "83634",
+    "dates": [
+      "2026-05-29",
+      "2026-05-30"
+    ],
+    "url": "https://www.estatesales.net/ID/Kuna/83634/4932375",
+    "lat": 43.407269,
+    "lng": -116.30398
+  }
+];
+
+    const map = L.map('map').setView([43.6150, -116.2023], 11);
+
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+      maxZoom: 19,
+    }).addTo(map);
+
+    document.getElementById('count').textContent =
+      sales.length + ' sale' + (sales.length !== 1 ? 's' : '');
+
+    function formatDates(dates) {
+      if (!dates || !dates.length) return '';
+      const fmt = d => {
+        const [yr, mo, dy] = d.split('-');
+        const months = ['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+        return months[parseInt(mo)-1] + ' ' + parseInt(dy);
+      };
+      if (dates.length === 1) return fmt(dates[0]);
+      const first = fmt(dates[0]);
+      const last = fmt(dates[dates.length-1]);
+      return first === last ? first : first + ' – ' + last;
+    }
+
+    sales.forEach(sale => {
+      const marker = L.marker([sale.lat, sale.lng]).addTo(map);
+      const dateStr = formatDates(sale.dates);
+      const companyLine = sale.company
+        ? `<div class="popup-company">🏢 ${sale.company}</div>` : '';
+      const addressLine = sale.address
+        ? `<div class="popup-address">📍 ${sale.address}</div>` : '';
+      marker.bindPopup(`
+        <div class="popup-title">${sale.title}</div>
+        ${companyLine}
+        ${addressLine}
+        <div class="popup-dates">📅 ${dateStr}</div>
+        <div class="popup-link"><a href="${sale.url}" target="_blank">View listing →</a></div>
+      `, { maxWidth: 280 });
+    });
+  </script>
+</body>
+</html>

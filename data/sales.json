@@ -1,0 +1,76 @@
+[
+  {
+    "id": "es-4908204",
+    "source": "estatesales",
+    "title": "2-Day Melba Farmhouse Estate",
+    "company": "Americana Estate Services",
+    "address": "Melba, ID 83641",
+    "street": "",
+    "city": "Melba",
+    "state": "ID",
+    "zip": "83641",
+    "dates": [
+      "2026-05-29",
+      "2026-05-30"
+    ],
+    "url": "https://www.estatesales.net/ID/Melba/83641/4908204",
+    "lat": 43.367533,
+    "lng": -116.577911
+  },
+  {
+    "id": "es-4919316",
+    "source": "estatesales",
+    "title": "The Smith Estate Sale - SE Boise - Columbia Village - Antiques, Tools, Furniture, Collectibles",
+    "company": "Bates Estate Sales - Boise",
+    "address": "5085 S Council Bluffs Way, Boise, ID 83716",
+    "street": "5085 S Council Bluffs Way",
+    "city": "Boise",
+    "state": "ID",
+    "zip": "83716",
+    "dates": [
+      "2026-05-29",
+      "2026-05-30",
+      "2026-05-31"
+    ],
+    "url": "https://www.estatesales.net/ID/Boise/83716/4919316",
+    "lat": 43.55593,
+    "lng": -116.142468
+  },
+  {
+    "id": "es-4926720",
+    "source": "estatesales",
+    "title": "Eagle Massive Estate sale",
+    "company": "Estate Liquidators Of Idaho",
+    "address": "Eagle, ID 83616",
+    "street": "",
+    "city": "Eagle",
+    "state": "ID",
+    "zip": "83616",
+    "dates": [
+      "2026-05-28",
+      "2026-05-29",
+      "2026-05-30"
+    ],
+    "url": "https://www.estatesales.net/ID/Eagle/83616/4926720",
+    "lat": 43.760582,
+    "lng": -116.387926
+  },
+  {
+    "id": "es-4932375",
+    "source": "estatesales",
+    "title": "Kuna Estate Sale",
+    "company": "Idaho Estate Transition Solutions",
+    "address": "Kuna, ID 83634",
+    "street": "",
+    "city": "Kuna",
+    "state": "ID",
+    "zip": "83634",
+    "dates": [
+      "2026-05-29",
+      "2026-05-30"
+    ],
+    "url": "https://www.estatesales.net/ID/Kuna/83634/4932375",
+    "lat": 43.407269,
+    "lng": -116.30398
+  }
+]

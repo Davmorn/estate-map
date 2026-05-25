@@ -1,0 +1,9 @@
+{
+  "region": {
+    "name": "Boise Metro",
+    "estatesales_state": "ID",
+    "estatesales_cities": ["Boise", "Meridian", "Nampa", "Caldwell", "Eagle", "Garden-City"],
+    "gsalr_primary_city": "Boise",
+    "gsalr_radius_miles": 30
+  }
+}
