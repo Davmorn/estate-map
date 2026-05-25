@@ -7,7 +7,6 @@ import geocode
 import generate_map
 import scrape_estatesales
 import scrape_estatesales_org
-import scrape_facebook
 import scrape_gsalr
 
 ROOT = Path(__file__).parent.parent
@@ -81,13 +80,10 @@ def deduplicate_cross_source(sales: list[dict]) -> list[dict]:
 
     es_sales = [s for s in sales if s["source"] == "estatesales"]
     esorg_sales = [s for s in sales if s["source"] == "estatesales_org"]
-    fb_sales = [s for s in sales if s["source"] == "facebook"]
     gsalr_sales = [s for s in sales if s["source"] == "gsalr"]
 
     unique_esorg = [s for s in esorg_sales if not is_duplicate(s, es_sales)]
     primary = es_sales + unique_esorg
-    unique_fb = [s for s in fb_sales if not is_duplicate(s, primary)]
-    primary = primary + unique_fb
     unique_gsalr = [s for s in gsalr_sales if not is_duplicate(s, primary)]
 
     return primary + unique_gsalr
@@ -116,7 +112,6 @@ def main() -> None:
     cities = region["estatesales_cities"]
     gsalr_city = region.get("gsalr_primary_city", cities[0])
     region_name = region["name"]
-    fb_pages = region.get("facebook_pages", [])
 
     print("Scraping EstateSales.net...")
     es_sales = scrape_estatesales.scrape(state, cities)
@@ -127,11 +122,8 @@ def main() -> None:
     print("Scraping GSALR...")
     gsalr_sales = scrape_gsalr.scrape(state, gsalr_city)
 
-    print("Scraping Facebook...")
-    fb_sales = scrape_facebook.scrape(fb_pages)
-
     print("Geocoding missing coordinates...")
-    all_new = geocode.geocode_missing(es_sales + esorg_sales + gsalr_sales + fb_sales)
+    all_new = geocode.geocode_missing(es_sales + esorg_sales + gsalr_sales)
 
     print("Loading existing sales...")
     existing = load_sales()

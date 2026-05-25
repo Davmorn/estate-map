@@ -4,11 +4,6 @@
     "estatesales_state": "ID",
     "estatesales_cities": ["Boise", "Meridian", "Nampa", "Caldwell", "Eagle", "Garden-City"],
     "gsalr_primary_city": "Boise",
-    "gsalr_radius_miles": 30,
-    "facebook_pages": [
-      "https://www.facebook.com/estate.solutions.llc.2023/",
-      "https://www.facebook.com/profile.php?id=100090553566589",
-      "https://www.facebook.com/goldengooseestate"
-    ]
+    "gsalr_radius_miles": 30
   }
 }

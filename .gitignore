@@ -8,6 +8,3 @@ wheels/
 
 # Virtual environments
 .venv
-
-# Optional Facebook cookies for authenticated scraping
-facebook_cookies.txt

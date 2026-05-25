@@ -22,12 +22,6 @@ jobs:
       - name: Install dependencies
         run: uv sync
 
-      - name: Write Facebook cookies (if secret is set)
-        if: ${{ env.FB_COOKIES != '' }}
-        env:
-          FB_COOKIES: ${{ secrets.FB_COOKIES }}
-        run: echo "$FB_COOKIES" | base64 -d > facebook_cookies.txt
-
       - name: Run scraper and generate map
         run: uv run python scripts/main.py
 
