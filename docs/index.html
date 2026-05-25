@@ -258,7 +258,7 @@
       const { color, label } = endDayInfo(sale.dates);
       const slug = companySlug(sale.company);
       const imgTag = slug
-        ? `<img src="logos/${slug}.png" onerror="this.style.display='none'">`
+        ? `<img src="logos/${slug}.png" onload="this.parentElement.style.background='white'" onerror="this.style.display='none'">`
         : '';
       const icon = L.divIcon({
         html: `<div class="map-marker" style="--mc:${color}">${imgTag}</div>`,
@@ -288,7 +288,7 @@
       item.innerHTML = `
         <div class="list-title">${sale.title}</div>
         <div class="list-dates"><span class="end-dot" style="background:${color}"></span>${dateStr} <span style="color:#888;font-size:11px;">(½ price ${label})</span></div>
-        <div class="list-location">📍 ${sale.city || sale.address}</div>
+        <div class="list-location">📍 ${sale.address || sale.city}</div>
         ${sale.company ? `<div class="list-company">${sale.company}</div>` : ''}
         <div class="list-link"><a href="${sale.url}" target="_blank" onclick="event.stopPropagation()">View listing →</a></div>
       `;
