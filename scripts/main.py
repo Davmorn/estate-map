@@ -5,6 +5,7 @@ from pathlib import Path
 
 import geocode
 import generate_map
+import parse_potential
 import scrape_estatesales
 import scrape_estatesales_org
 import scrape_gsalr
@@ -130,8 +131,14 @@ def main() -> None:
     print("Scraping Instagram...")
     ig_sales = scrape_instagram.scrape(ig_profiles)
 
+    print("Parsing Facebook potential sales...")
+    potential = parse_potential.load_potential()
+    fb_sales = parse_potential.parse(potential)
+    if potential:
+        parse_potential.clear_potential()
+
     print("Geocoding missing coordinates...")
-    all_new = geocode.geocode_missing(es_sales + esorg_sales + gsalr_sales + ig_sales)
+    all_new = geocode.geocode_missing(es_sales + esorg_sales + gsalr_sales + ig_sales + fb_sales)
 
     print("Loading existing sales...")
     existing = load_sales()

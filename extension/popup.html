@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <style>
+    body {
+      font-family: system-ui, sans-serif;
+      width: 300px;
+      padding: 10px 14px 12px;
+      margin: 0;
+    }
+    h2 { font-size: 13px; font-weight: 600; margin: 0 0 8px; color: #333; }
+
+    .page-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 4px 0;
+      border-bottom: 1px solid #f2f2f2;
+      gap: 8px;
+    }
+    .page-row:last-child { border-bottom: none; }
+    .page-name { font-size: 12px; flex: 1; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; }
+    .page-meta { font-size: 11px; white-space: nowrap; flex-shrink: 0; }
+    .done { color: #090; }
+    .due  { color: #c05000; }
+    .empty { font-size: 12px; color: #888; padding: 6px 0; }
+
+    hr { border: none; border-top: 1px solid #e0e0e0; margin: 8px 0; }
+
+    .btn {
+      display: block;
+      width: 100%;
+      padding: 7px;
+      font-size: 13px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      margin-bottom: 6px;
+      box-sizing: border-box;
+    }
+    .btn-primary { background: #1877f2; color: white; }
+    .btn-primary:disabled { background: #bbb; cursor: default; }
+    .btn-secondary { background: #f0f0f0; color: #333; }
+    .btn-secondary:disabled { color: #aaa; cursor: default; }
+
+    .label    { font-size: 11px; color: #888; margin-bottom: 2px; text-transform: uppercase; letter-spacing: .04em; }
+    .big-name { font-size: 14px; font-weight: 600; margin-bottom: 2px; }
+    .progress { font-size: 11px; color: #888; margin-bottom: 10px; }
+
+    .status { font-size: 12px; margin-top: 4px; min-height: 16px; }
+    .error   { color: #c00; }
+    .success { color: #090; }
+
+    .footer { margin-top: 8px; }
+    .settings-link { font-size: 11px; color: #bbb; cursor: pointer; text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <h2>Estate Sale Collector</h2>
+
+  <!-- ── Home view ── -->
+  <div id="view-home">
+    <div id="home-list"></div>
+
+    <div id="adhoc-section" style="display:none">
+      <hr />
+      <div class="label">Current page</div>
+      <div class="big-name" id="adhoc-name"></div>
+      <button class="btn btn-primary" id="adhoc-btn">Grab Posts</button>
+      <div class="status" id="adhoc-status"></div>
+    </div>
+
+    <hr />
+    <button class="btn btn-primary" id="start-btn" disabled>Start</button>
+    <div class="status" id="home-status"></div>
+    <div class="footer"><a class="settings-link" id="sl-home">Settings</a></div>
+  </div>
+
+  <!-- ── Session: on correct page ── -->
+  <div id="view-scan" style="display:none">
+    <div class="label">Scanning</div>
+    <div class="big-name" id="scan-name"></div>
+    <div class="progress" id="scan-progress"></div>
+    <button class="btn btn-primary" id="scan-btn">Scan</button>
+    <button class="btn btn-secondary" id="skip-btn">Skip</button>
+    <div class="status" id="scan-status"></div>
+    <div class="footer"><a class="settings-link" id="sl-scan">Settings</a></div>
+  </div>
+
+  <!-- ── Session: waiting for correct page ── -->
+  <div id="view-open" style="display:none">
+    <div class="label">Next up</div>
+    <div class="big-name" id="open-name"></div>
+    <div class="progress" id="open-progress"></div>
+    <button class="btn btn-primary" id="open-btn">Open It</button>
+    <button class="btn btn-secondary" id="open-skip-btn">Skip</button>
+    <div class="footer"><a class="settings-link" id="sl-open">Settings</a></div>
+  </div>
+
+  <script src="popup.js"></script>
+</body>
+</html>

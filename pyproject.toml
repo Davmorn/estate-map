@@ -4,6 +4,7 @@ version = "0.1.0"
 description = "Add your description here"
 requires-python = ">=3.12"
 dependencies = [
+    "anthropic>=0.104.1",
     "beautifulsoup4>=4.14.3",
     "instaloader>=4.15.1",
     "requests>=2.34.2",

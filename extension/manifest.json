@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Estate Sale Collector",
+  "version": "1.0",
+  "description": "Wizard-style weekly scraper: cycles through tracked Facebook pages and pushes posts to the estate-map repo.",
+  "permissions": ["storage", "scripting", "tabs"],
+  "host_permissions": [
+    "https://www.facebook.com/*",
+    "https://api.github.com/*"
+  ],
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "Estate Sale Collector"
+  },
+  "options_page": "settings.html"
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Estate Sale Collector — Settings</title>
+  <style>
+    body { font-family: system-ui, sans-serif; max-width: 400px; margin: 40px auto; padding: 0 16px; }
+    h2 { font-size: 18px; margin-bottom: 20px; }
+    label { display: block; font-size: 13px; font-weight: 600; margin-bottom: 4px; }
+    input {
+      width: 100%; box-sizing: border-box;
+      padding: 7px 10px; font-size: 14px;
+      border: 1px solid #ccc; border-radius: 5px;
+      margin-bottom: 14px;
+    }
+    button {
+      padding: 8px 20px; font-size: 14px;
+      background: #1877f2; color: white;
+      border: none; border-radius: 6px; cursor: pointer;
+    }
+    #status { margin-top: 10px; font-size: 13px; }
+    #status.success { color: #090; }
+    #status.error { color: #c00; }
+    .hint { font-size: 11px; color: #777; margin-top: -10px; margin-bottom: 14px; }
+  </style>
+</head>
+<body>
+  <h2>Estate Sale Collector — Settings</h2>
+
+  <label for="pat">GitHub Personal Access Token</label>
+  <input type="password" id="pat" placeholder="github_pat_…" autocomplete="off" />
+  <p class="hint">Needs <code>contents: write</code> scope on the estate-map repo.</p>
+
+  <label for="owner">Repo Owner</label>
+  <input type="text" id="owner" placeholder="davmorn" />
+
+  <label for="repo">Repo Name</label>
+  <input type="text" id="repo" placeholder="estate-map" />
+
+  <button id="save-btn">Save</button>
+  <div id="status"></div>
+
+  <script src="settings.js"></script>
+</body>
+</html>
