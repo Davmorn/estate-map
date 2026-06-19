@@ -129,6 +129,60 @@
     "lng": -116.6126
   },
   {
+    "id": "es-4952079",
+    "source": "estatesales",
+    "title": "Crooke - High-End Estate Sale in Bown Crossing \u00e2\u0080\u0093 Herman Miller, Cassina,  Art",
+    "company": "Bates Estate Sales - Boise",
+    "address": "3272 E Front Runner Lane, Boise, ID 83702",
+    "street": "3272 E Front Runner Lane",
+    "city": "Boise",
+    "state": "ID",
+    "zip": "83702",
+    "dates": [
+      "2026-06-19",
+      "2026-06-20"
+    ],
+    "url": "https://www.estatesales.net/ID/Boise/83702/4952079",
+    "lat": 43.574098,
+    "lng": -116.144586
+  },
+  {
+    "id": "es-4960929",
+    "source": "estatesales",
+    "title": "Mega Estate Sale by Idaho ETS. DISCOUNT WEEKEND",
+    "company": "Idaho Estate Transition Solutions",
+    "address": "908 N Middleton Rd, Nampa, ID 83686",
+    "street": "908 N Middleton Rd",
+    "city": "Nampa",
+    "state": "ID",
+    "zip": "83686",
+    "dates": [
+      "2026-06-19",
+      "2026-06-20"
+    ],
+    "url": "https://www.estatesales.net/ID/Nampa/83686/4960929",
+    "lat": 43.592562,
+    "lng": -116.6126
+  },
+  {
+    "id": "es-4966065",
+    "source": "estatesales",
+    "title": "Amazing Antique and collectible jewelry, glassware, clocks, toys, household, and more!",
+    "company": null,
+    "address": "1529 N Hornback Ave, Star, ID 83669",
+    "street": "1529 N Hornback Ave",
+    "city": "Star",
+    "state": "ID",
+    "zip": "83669",
+    "dates": [
+      "2026-06-19",
+      "2026-06-20"
+    ],
+    "url": "https://www.estatesales.net/ID/Star/83669/4966065",
+    "lat": 43.706018,
+    "lng": -116.477822
+  },
+  {
     "id": "esorg-2440590",
     "source": "estatesales_org",
     "title": "North East Boise Estate Sale \u2014 Mid-Century Furniture, Antiques,...",
@@ -767,6 +821,42 @@
       "2026-06-13"
     ],
     "url": "https://www.estatesales.org/estate-sales/fl/wellington-/33414/grasons-of-west-palm-beach-2444872",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2446347",
+    "source": "estatesales_org",
+    "title": "Mega Estate Sale by Idaho ETS - DISCOUNT WEEKEND",
+    "company": "Idaho Estate Transition Solutions",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-06-19",
+      "2026-06-20"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/nampa/83651/mega-estate-sale-by-idaho-2446347",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2446879",
+    "source": "estatesales_org",
+    "title": "Reseller\u2019s Dream Estate Sale",
+    "company": "BEL",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-06-19",
+      "2026-06-20"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/boise/83713/resellers-dream-estate-sale-2446879",
     "lat": -2.4833826,
     "lng": 117.8902853
   }
