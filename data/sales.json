@@ -1,42 +1,5 @@
 [
   {
-    "id": "es-4951155",
-    "source": "estatesales",
-    "title": "Global Heritage Estate Sale",
-    "company": "Estate Sales & More",
-    "address": "536 West Bogus Vw Dr, Eagle, ID 83616",
-    "street": "536 West Bogus Vw Dr",
-    "city": "Eagle",
-    "state": "ID",
-    "zip": "83616",
-    "dates": [
-      "2026-06-12",
-      "2026-06-13"
-    ],
-    "url": "https://www.estatesales.net/ID/Eagle/83616/4951155",
-    "lat": 43.675146,
-    "lng": -116.360169
-  },
-  {
-    "id": "es-4952238",
-    "source": "estatesales",
-    "title": "Mega Estate Sale by Idaho ETS",
-    "company": "Idaho Estate Transition Solutions",
-    "address": "908 N Middleton Road, Nampa, ID 83651",
-    "street": "908 N Middleton Road",
-    "city": "Nampa",
-    "state": "ID",
-    "zip": "83651",
-    "dates": [
-      "2026-06-11",
-      "2026-06-12",
-      "2026-06-13"
-    ],
-    "url": "https://www.estatesales.net/ID/Nampa/83651/4952238",
-    "lat": 43.592562,
-    "lng": -116.6126
-  },
-  {
     "id": "es-4952079",
     "source": "estatesales",
     "title": "Crooke - High-End Estate Sale in Bown Crossing \u00e2\u0080\u0093 Herman Miller, Cassina,  Art",
@@ -113,8 +76,8 @@
     "source": "estatesales",
     "title": "2-Day Eclectic Antique & Collectible Estate Sale",
     "company": "Americana Estate Services",
-    "address": "Boise, ID 83713",
-    "street": "",
+    "address": "11937 W Driftwood Ct, Boise, ID 83713",
+    "street": "11937 W Driftwood Ct",
     "city": "Boise",
     "state": "ID",
     "zip": "83713",
@@ -123,8 +86,26 @@
       "2026-07-18"
     ],
     "url": "https://www.estatesales.net/ID/Boise/83713/4980078",
-    "lat": 43.633927,
-    "lng": -116.339582
+    "lat": 43.612458,
+    "lng": -116.331172
+  },
+  {
+    "id": "es-4990230",
+    "source": "estatesales",
+    "title": "Bates Estate Sale - Final Chance: Premium Designer Furniture, Audio & Art \u00e2\u0080\u0093 Meridian Estate Sale",
+    "company": "Bates Estate Sales - Boise",
+    "address": "5997 N Mitchum Ave, Meridian, ID 83646",
+    "street": "5997 N Mitchum Ave",
+    "city": "Meridian",
+    "state": "ID",
+    "zip": "83646",
+    "dates": [
+      "2026-07-17",
+      "2026-07-18"
+    ],
+    "url": "https://www.estatesales.net/ID/Meridian/83646/4990230",
+    "lat": 43.659244,
+    "lng": -116.396741
   },
   {
     "id": "esorg-2443879",
@@ -141,25 +122,6 @@
       "2026-06-27"
     ],
     "url": "https://www.estatesales.org/estate-sales/id/boise/83706/eclectic-collectors-dream-estate-sale-2443879",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2444872",
-    "source": "estatesales_org",
-    "title": "\ud83e\udd20\ud83c\udf35\ud83c\udfdc\ufe0f Grasons of West Palm Beach Presents The Southwestern Art,...",
-    "company": "Grasons of West Palm Beach, FL",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-06-11",
-      "2026-06-12",
-      "2026-06-13"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/fl/wellington-/33414/grasons-of-west-palm-beach-2444872",
     "lat": -2.4833826,
     "lng": 117.8902853
   },
@@ -303,6 +265,78 @@
       "2026-07-11"
     ],
     "url": "https://www.estatesales.org/estate-sales/ca/scotts-valley/95066/california-estates-sale-saturday-july-2449187",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2450930",
+    "source": "estatesales_org",
+    "title": "Herman Miller Bar Stools, Cassina, B&O, Art, Home Decor, Books \u2013...",
+    "company": "Bates Estate Sales - Boise",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-07-17",
+      "2026-07-18"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/meridian/83646/herman-miller-bar-stools-cassina-2450930",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2451299",
+    "source": "estatesales_org",
+    "title": "ESTATE SALE & CHRISTMAS IN JULY AT ONE LOCATION!",
+    "company": "",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-07-16",
+      "2026-07-18"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/boise/83704/estate-sale-christmas-in-july-2451299",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2451503",
+    "source": "estatesales_org",
+    "title": "Timeless Treasures Estate Sale",
+    "company": "Estate Sales & More",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-07-18",
+      "2026-07-19"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/meridian/83646/timeless-treasures-estate-sale-2451503",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2451119",
+    "source": "estatesales_org",
+    "title": "Old-World Elegance Estate Sale: Fine Furniture, Lighting & Unusual...",
+    "company": "BEL",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-07-24",
+      "2026-07-25"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/meridian/83642/oldworld-elegance-estate-sale-fine-2451119",
     "lat": -2.4833826,
     "lng": 117.8902853
   },
