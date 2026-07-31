@@ -1,23 +1,5 @@
 [
   {
-    "id": "es-4971798",
-    "source": "estatesales",
-    "title": "Boise Estate Sale by Idaho ETS",
-    "company": "Idaho Estate Transition Solutions",
-    "address": "8457 W Pembrook Dr, Boise, ID 83704",
-    "street": "8457 W Pembrook Dr",
-    "city": "Boise",
-    "state": "ID",
-    "zip": "83704",
-    "dates": [
-      "2026-06-26",
-      "2026-06-27"
-    ],
-    "url": "https://www.estatesales.net/ID/Boise/83704/4971798",
-    "lat": 43.639984,
-    "lng": -116.287984
-  },
-  {
     "id": "es-4980078",
     "source": "estatesales",
     "title": "2-Day Eclectic Antique & Collectible Estate Sale",
@@ -94,8 +76,8 @@
     "source": "estatesales",
     "title": "Wilderness Ranch Estate Sale",
     "company": null,
-    "address": "Boise, ID 83716",
-    "street": "",
+    "address": "81 Evergreen Dr, Boise, ID 83716",
+    "street": "81 Evergreen Dr",
     "city": "Boise",
     "state": "ID",
     "zip": "83716",
@@ -105,43 +87,43 @@
       "2026-08-02"
     ],
     "url": "https://www.estatesales.net/ID/Boise/83716/5011779",
-    "lat": 43.464848,
-    "lng": -115.97638
+    "lat": 43.667361,
+    "lng": -115.984134
   },
   {
-    "id": "esorg-2443879",
-    "source": "estatesales_org",
-    "title": "Eclectic Collector\u2019s Dream Estate Sale",
-    "company": "BEL",
-    "address": ", ID",
+    "id": "es-5019651",
+    "source": "estatesales",
+    "title": "Lakewood Estate Sale",
+    "company": null,
+    "address": "Boise, ID 83706",
     "street": "",
-    "city": "",
+    "city": "Boise",
     "state": "ID",
-    "zip": "",
+    "zip": "83706",
     "dates": [
-      "2026-06-26",
-      "2026-06-27"
+      "2026-08-15",
+      "2026-08-16"
     ],
-    "url": "https://www.estatesales.org/estate-sales/id/boise/83706/eclectic-collectors-dream-estate-sale-2443879",
-    "lat": -2.4833826,
-    "lng": 117.8902853
+    "url": "https://www.estatesales.net/ID/Boise/83706/5019651",
+    "lat": 43.594418,
+    "lng": -116.192438
   },
   {
-    "id": "esorg-2447930",
-    "source": "estatesales_org",
-    "title": "Full Home Liquidation - Furniture, TVs, Tools, Glassware & More",
-    "company": "",
-    "address": ", ID",
-    "street": "",
-    "city": "",
+    "id": "es-5019933",
+    "source": "estatesales",
+    "title": "1-Day Clean Barber Park Estate Sale",
+    "company": "Americana Estate Services",
+    "address": "3787  E Shady Glen Dr, Boise, ID 83706",
+    "street": "3787  E Shady Glen Dr",
+    "city": "Boise",
     "state": "ID",
-    "zip": "",
+    "zip": "83706",
     "dates": [
-      "2026-06-27"
+      "2026-08-01"
     ],
-    "url": "https://www.estatesales.org/estate-sales/id/weiser/83672/full-home-liquidation-furniture-tvs-2447930",
-    "lat": -2.4833826,
-    "lng": 117.8902853
+    "url": "https://www.estatesales.net/ID/Boise/83706/5019933",
+    "lat": 43.564504,
+    "lng": -116.13716
   },
   {
     "id": "esorg-2449308",
@@ -343,6 +325,24 @@
     "lng": 117.8902853
   },
   {
+    "id": "esorg-2454202",
+    "source": "estatesales_org",
+    "title": "Barbara Alexander Estate Sale",
+    "company": "Estate Consulting Treasure Valley, LLC.",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-08-21",
+      "2026-08-22"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/boise/83706/barbara-alexander-estate-sale-2454202",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
     "id": "gsalr-38792587",
     "source": "gsalr",
     "title": "Hugh and big too !! Neighbor hood sale!!",
@@ -358,24 +358,5 @@
     "url": "https://gsalr.com/hugh-and-big-too-boise-id-38792587.html",
     "lat": 43.660538,
     "lng": -116.355584
-  },
-  {
-    "id": "gsalr-38822789",
-    "source": "gsalr",
-    "title": "HUGE 3 FAMILY SALE (3386 N ELMSTONE AVE, MERIDIAN)",
-    "company": "",
-    "address": "3386 N Elmstone Ave, Meridian, ID 83646",
-    "street": "3386 N Elmstone Ave",
-    "city": "Meridian",
-    "state": "ID",
-    "zip": "83646",
-    "dates": [
-      "2026-06-25",
-      "2026-06-26",
-      "2026-06-27"
-    ],
-    "url": "https://gsalr.com/huge-3-family-sale-meridian-id-38822789.html",
-    "lat": 43.635772,
-    "lng": -116.455
   }
 ]
