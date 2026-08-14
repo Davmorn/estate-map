@@ -148,8 +148,8 @@
     "source": "estatesales",
     "title": "Kuna, ID Estate Sale \u00e2\u0080\u0094 August 14-16 | 2007 Lexus, Furniture, Appliances",
     "company": "Bates Estate Sales - Boise",
-    "address": "Kuna, ID 83634",
-    "street": "",
+    "address": "998 Quartzite, Kuna, ID 83634",
+    "street": "998 Quartzite",
     "city": "Kuna",
     "state": "ID",
     "zip": "83634",
@@ -159,8 +159,26 @@
       "2026-08-16"
     ],
     "url": "https://www.estatesales.net/ID/Kuna/83634/5028171",
-    "lat": 43.407269,
-    "lng": -116.30398
+    "lat": 43.497839,
+    "lng": -116.423903
+  },
+  {
+    "id": "es-5032539",
+    "source": "estatesales",
+    "title": "Barbara Alexander Estate Sale",
+    "company": "Estate Consulting Treasure Valley",
+    "address": "Boise, ID 83706",
+    "street": "",
+    "city": "Boise",
+    "state": "ID",
+    "zip": "83706",
+    "dates": [
+      "2026-08-21",
+      "2026-08-22"
+    ],
+    "url": "https://www.estatesales.net/ID/Boise/83706/5032539",
+    "lat": 43.594418,
+    "lng": -116.192438
   },
   {
     "id": "esorg-2449096",
@@ -177,41 +195,6 @@
       "2026-07-18"
     ],
     "url": "https://www.estatesales.org/estate-sales/id/boise-/83713/fun-eclectic-antiques-collectibles-2day-2449096",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2450438",
-    "source": "estatesales_org",
-    "title": "Peterson Living Estate Sale",
-    "company": "On The Water Estate Sales",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-07-11",
-      "2026-07-12"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/id/meridian/83646/peterson-living-estate-sale-2450438",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2449187",
-    "source": "estatesales_org",
-    "title": "California Estates Sale Saturday July 11th",
-    "company": "Clark's  Auction Company",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-07-11"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/ca/scotts-valley/95066/california-estates-sale-saturday-july-2449187",
     "lat": -2.4833826,
     "lng": 117.8902853
   },
@@ -321,24 +304,6 @@
       "2026-07-26"
     ],
     "url": "https://www.estatesales.org/estate-sales/id/boise/83709/stardust-estate-sale-2452800",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2454202",
-    "source": "estatesales_org",
-    "title": "Barbara Alexander Estate Sale",
-    "company": "Estate Consulting Treasure Valley, LLC.",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-08-21",
-      "2026-08-22"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/id/boise/83706/barbara-alexander-estate-sale-2454202",
     "lat": -2.4833826,
     "lng": 117.8902853
   },
@@ -454,20 +419,77 @@
     "lng": 117.8902853
   },
   {
-    "id": "gsalr-38792587",
-    "source": "gsalr",
-    "title": "Hugh and big too !! Neighbor hood sale!!",
-    "company": "",
-    "address": "13885 W Daimler Ct, Boise, ID 83713",
-    "street": "13885 W Daimler Ct",
-    "city": "Boise",
+    "id": "esorg-2456779",
+    "source": "estatesales_org",
+    "title": "Woodspring Living Estate Sale",
+    "company": "On The Water Estate Sales",
+    "address": ", ID",
+    "street": "",
+    "city": "",
     "state": "ID",
-    "zip": "83713",
+    "zip": "",
     "dates": [
-      "2026-07-11"
+      "2026-08-15",
+      "2026-08-16"
     ],
-    "url": "https://gsalr.com/hugh-and-big-too-boise-id-38792587.html",
-    "lat": 43.660538,
-    "lng": -116.355584
+    "url": "https://www.estatesales.org/estate-sales/id/boise/83713/woodspring-living-estate-sale-2456779",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2457166",
+    "source": "estatesales_org",
+    "title": "Ada Estate Liquidations",
+    "company": "Ada Estate Liquidations",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-08-28",
+      "2026-08-29"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/boise/83709/ada-estate-liquidations-2457166",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2456573",
+    "source": "estatesales_org",
+    "title": "The Three R Gals will be in Berlin for a Star Trek/Vintage/Mid...",
+    "company": "Three R Estate Services",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-08-21",
+      "2026-08-22",
+      "2026-08-23"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/nj/berlin/08009/the-three-r-gals-will-2456573",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2454746",
+    "source": "estatesales_org",
+    "title": "Amazing Norris Lake House Packed Full 2008 Hummer Alpha 3 Low Miles...",
+    "company": "Everything Cool Estate Sales",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-08-14",
+      "2026-08-15",
+      "2026-08-16"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/tn/sharps-chapel/37866/amazing-norris-lake-house-packed-2454746",
+    "lat": -2.4833826,
+    "lng": 117.8902853
   }
 ]
