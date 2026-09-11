@@ -18,24 +18,6 @@
     "lng": -116.192438
   },
   {
-    "id": "es-5023734",
-    "source": "estatesales",
-    "title": "East Boise Estate Sale",
-    "company": "Idaho Estate Transition Solutions",
-    "address": "4026 S Law Ave, Boise, ID 83706",
-    "street": "4026 S Law Ave",
-    "city": "Boise",
-    "state": "ID",
-    "zip": "83706",
-    "dates": [
-      "2026-08-07",
-      "2026-08-08"
-    ],
-    "url": "https://www.estatesales.net/ID/Boise/83706/5023734",
-    "lat": 43.56567,
-    "lng": -116.162826
-  },
-  {
     "id": "es-5028171",
     "source": "estatesales",
     "title": "Kuna, ID Estate Sale \u00e2\u0080\u0094 August 14-16 | 2007 Lexus, Furniture, Appliances",
@@ -132,8 +114,8 @@
     "source": "estatesales",
     "title": "Old Mill Boise Estate Sale \u00e2\u0080\u0094 Sofas, Furniture, Tools, Kitchen, D\u00c3\u00a9cor & Patio Finds",
     "company": "Bates Estate Sales - Boise",
-    "address": "Boise, ID 83709",
-    "street": "",
+    "address": "9539 Old Mill Dr, Boise, ID 83709",
+    "street": "9539 Old Mill Dr",
     "city": "Boise",
     "state": "ID",
     "zip": "83709",
@@ -143,8 +125,8 @@
       "2026-09-13"
     ],
     "url": "https://www.estatesales.net/ID/Boise/83709/5064144",
-    "lat": 43.560522,
-    "lng": -116.289073
+    "lat": 43.588292,
+    "lng": -116.301628
   },
   {
     "id": "es-5064363",
@@ -165,76 +147,23 @@
     "lng": -116.219837
   },
   {
-    "id": "esorg-2455933",
-    "source": "estatesales_org",
-    "title": "Ada Estate Liquidations",
-    "company": "Ada Estate Liquidations",
-    "address": ", ID",
+    "id": "es-5071506",
+    "source": "estatesales",
+    "title": "Coltsfoot Estate Sale Sept. 18\u00e2\u0080\u009320 \u00e2\u0080\u0094 Star Trek, Playboys, Gold, Signed Sports Items, Furniture & More",
+    "company": "Bates Estate Sales - Boise",
+    "address": "Kuna, ID 83634",
     "street": "",
-    "city": "",
+    "city": "Kuna",
     "state": "ID",
-    "zip": "",
+    "zip": "83634",
     "dates": [
-      "2026-08-07",
-      "2026-08-08"
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20"
     ],
-    "url": "https://www.estatesales.org/estate-sales/id/boise-/83704/ada-estate-liquidations-2455933",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2454930",
-    "source": "estatesales_org",
-    "title": "Ada Estate Liquidations",
-    "company": "Ada Estate Liquidations",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-08-07",
-      "2026-08-08"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/id/boise-/83704/ada-estate-liquidations-2454930",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2455070",
-    "source": "estatesales_org",
-    "title": "Ada Estate Liquidations",
-    "company": "Ada Estate Liquidations",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-08-07",
-      "2026-08-08"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/id/boise/83704/ada-estate-liquidations-2455070",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2455400",
-    "source": "estatesales_org",
-    "title": "Rivernest Estate Sale",
-    "company": "On The Water Estate Sales",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-08-08",
-      "2026-08-09"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/id/boise/83706/rivernest-estate-sale-2455400",
-    "lat": -2.4833826,
-    "lng": 117.8902853
+    "url": "https://www.estatesales.net/ID/Kuna/83634/5071506",
+    "lat": 43.407269,
+    "lng": -116.30398
   },
   {
     "id": "esorg-2455710",
@@ -252,26 +181,6 @@
       "2026-08-16"
     ],
     "url": "https://www.estatesales.org/estate-sales/id/kuna/83634/epic-kuna-estate-sale-home-2455710",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2455532",
-    "source": "estatesales_org",
-    "title": "BLONDIES ESTATE SALE / EPIC 4 DAY SALE IN NORMAN /THUR AUG 6, 9-4 /...",
-    "company": "Blondies Estate Sales",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-08-06",
-      "2026-08-07",
-      "2026-08-08",
-      "2026-08-09"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/ok/norman/73072/blondies-estate-sale-epic-4-2455532",
     "lat": -2.4833826,
     "lng": 117.8902853
   },
@@ -566,6 +475,80 @@
       "2026-09-13"
     ],
     "url": "https://www.estatesales.org/estate-sales/id/boise/83709/old-mill-estate-sale-furniture-2460747",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2461490",
+    "source": "estatesales_org",
+    "title": "Nostalgic Massive Shop Sale Caldwell",
+    "company": "Treasure Valley Estate Sales",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-09-12",
+      "2026-09-13"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/caldwell/83607/nostalgic-massive-shop-sale-caldwell-2461490",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2461756",
+    "source": "estatesales_org",
+    "title": "Coltsfoot Estate Sale \u2014 Star Trek, Playboys, Gold Pieces, Signed...",
+    "company": "Bates Estate Sales - Boise",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-09-18",
+      "2026-09-19",
+      "2026-09-20"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/kuna/83634/coltsfoot-estate-sale-star-trek-2461756",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2462038",
+    "source": "estatesales_org",
+    "title": "READ DESCRIPTION VINTAGE MCM & CAPODIMONTE ESTATE SALE",
+    "company": "Vintage Treasures Estate Sales",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-09-17",
+      "2026-09-18",
+      "2026-09-19"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/ca/lancaster/93534/read-description-vintage-mcm-capodimonte-2462038",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2461536",
+    "source": "estatesales_org",
+    "title": "2025 Mexico Silver Libertad 1 oz 1 Onza - NGC MS70 Unique Label KEY...",
+    "company": "ArlenShop",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-09-07",
+      "2026-09-11"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/wy/sheridan/82801/2025-mexico-silver-libertad-1-2461536",
     "lat": -2.4833826,
     "lng": 117.8902853
   }
