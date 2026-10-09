@@ -130,6 +130,24 @@
     "lng": -116.426272
   },
   {
+    "id": "es-5105397",
+    "source": "estatesales",
+    "title": "Innis Designer Estate Sale \u00e2\u0080\u0093 MCM, Fine Art & More",
+    "company": "Bates Estate Sales - Boise",
+    "address": "5997 mitchum ave, Meridian, ID 83646",
+    "street": "5997 mitchum ave",
+    "city": "Meridian",
+    "state": "ID",
+    "zip": "83646",
+    "dates": [
+      "2026-10-09",
+      "2026-10-10"
+    ],
+    "url": "https://www.estatesales.net/ID/Meridian/83646/5105397",
+    "lat": 43.659244,
+    "lng": -116.396741
+  },
+  {
     "id": "esorg-2458382",
     "source": "estatesales_org",
     "title": "The Classic Collector's Estate Sale in Emmett: Timeless Decor &...",
@@ -144,44 +162,6 @@
       "2026-09-12"
     ],
     "url": "https://www.estatesales.org/estate-sales/id/emmett/83617/the-classic-collectors-estate-sale-2458382",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2460699",
-    "source": "estatesales_org",
-    "title": "Ada Estate Liquidations",
-    "company": "Ada Estate Liquidations",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-05"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/id/meridian-/83642/ada-estate-liquidations-2460699",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2460398",
-    "source": "estatesales_org",
-    "title": "Ada Estate Liquidations",
-    "company": "Ada Estate Liquidations",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-09-03",
-      "2026-09-04",
-      "2026-09-05"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/id/meridian/83646/ada-estate-liquidations-2460398",
     "lat": -2.4833826,
     "lng": 117.8902853
   },
@@ -507,6 +487,118 @@
       "2026-10-03"
     ],
     "url": "https://www.estatesales.org/estate-sales/fl/port-charlotte/33952/platinum-auction-with-gold-antiques-2465154",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2466628",
+    "source": "estatesales_org",
+    "title": "Eagle Estate Sale",
+    "company": "Idaho Estate Transition Solutions",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-10-09",
+      "2026-10-10"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/eagle/83616/eagle-estate-sale-2466628",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2466436",
+    "source": "estatesales_org",
+    "title": "Innis Estate Sale | Designer MCM, Art & Collectibles",
+    "company": "Bates Estate Sales - Boise",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-10-09",
+      "2026-10-10"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/meridian/83646/innis-estate-sale-designer-mcm-2466436",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2466683",
+    "source": "estatesales_org",
+    "title": "North Boise Estate Sale 50 Years Of Antiques & Vintage",
+    "company": "Treasure Valley Estate Sales",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-10-09",
+      "2026-10-10"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/boise/83702/north-boise-estate-sale-50-2466683",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2466701",
+    "source": "estatesales_org",
+    "title": "BELLO ESTATE SALE",
+    "company": "On The Water Estate Sales",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-10-10",
+      "2026-10-11"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/eagle/83616/bello-estate-sale-2466701",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2466885",
+    "source": "estatesales_org",
+    "title": "\ud83d\udea8\ud83d\udea8 THIS MASSIVE ESTATE NEEDS A DOUBLE WEEKEND SALE! \ud83d\udea8\ud83d\udea8",
+    "company": "Ada Estate Liquidations",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-10-08",
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/emmett-/83617/this-massive-estate-needs-a-2466885",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2466534",
+    "source": "estatesales_org",
+    "title": "Emmett! Tools, Vintage clothing, McDonalds Disney Collections",
+    "company": "Ada Estate Liquidations",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-10-08",
+      "2026-10-09",
+      "2026-10-10",
+      "2026-10-11"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/emmett/83617/emmett-tools-vintage-clothing-mcdonalds-2466534",
     "lat": -2.4833826,
     "lng": 117.8902853
   }
