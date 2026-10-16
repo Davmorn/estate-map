@@ -19,25 +19,6 @@
     "lng": -116.284853
   },
   {
-    "id": "es-5064144",
-    "source": "estatesales",
-    "title": "Old Mill Boise Estate Sale \u00e2\u0080\u0094 Sofas, Furniture, Tools, Kitchen, D\u00c3\u00a9cor & Patio Finds",
-    "company": "Bates Estate Sales - Boise",
-    "address": "9539 Old Mill Dr, Boise, ID 83709",
-    "street": "9539 Old Mill Dr",
-    "city": "Boise",
-    "state": "ID",
-    "zip": "83709",
-    "dates": [
-      "2026-09-11",
-      "2026-09-12",
-      "2026-09-13"
-    ],
-    "url": "https://www.estatesales.net/ID/Boise/83709/5064144",
-    "lat": 43.588292,
-    "lng": -116.301628
-  },
-  {
     "id": "es-5064363",
     "source": "estatesales",
     "title": "Maggie Mae  Estate Sale",
@@ -148,60 +129,6 @@
     "lng": -116.396741
   },
   {
-    "id": "esorg-2458382",
-    "source": "estatesales_org",
-    "title": "The Classic Collector's Estate Sale in Emmett: Timeless Decor &...",
-    "company": "Rhiannon Antiques & Estate Liquidation LLC",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-09-11",
-      "2026-09-12"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/id/emmett/83617/the-classic-collectors-estate-sale-2458382",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2460747",
-    "source": "estatesales_org",
-    "title": "Old Mill Estate Sale \u2014 Furniture, Electric Reclining Sofa, Tools,...",
-    "company": "Bates Estate Sales - Boise",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-09-12",
-      "2026-09-13"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/id/boise/83709/old-mill-estate-sale-furniture-2460747",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2461490",
-    "source": "estatesales_org",
-    "title": "Nostalgic Massive Shop Sale Caldwell",
-    "company": "Treasure Valley Estate Sales",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-09-12",
-      "2026-09-13"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/id/caldwell/83607/nostalgic-massive-shop-sale-caldwell-2461490",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
     "id": "esorg-2461756",
     "source": "estatesales_org",
     "title": "Coltsfoot Estate Sale \u2014 Star Trek, Playboys, Gold Pieces, Signed...",
@@ -236,24 +163,6 @@
       "2026-09-19"
     ],
     "url": "https://www.estatesales.org/estate-sales/ca/lancaster/93534/read-description-vintage-mcm-capodimonte-2462038",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2461536",
-    "source": "estatesales_org",
-    "title": "2025 Mexico Silver Libertad 1 oz 1 Onza - NGC MS70 Unique Label KEY...",
-    "company": "ArlenShop",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-09-07",
-      "2026-09-11"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/wy/sheridan/82801/2025-mexico-silver-libertad-1-2461536",
     "lat": -2.4833826,
     "lng": 117.8902853
   },
@@ -325,23 +234,6 @@
       "2026-09-19"
     ],
     "url": "https://www.estatesales.org/estate-sales/id/boise/83706/liquidation-sale-2462617",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2462666",
-    "source": "estatesales_org",
-    "title": "Estate Sale (honor system) \u2014 take what you need, leave what you can...",
-    "company": "",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-09-13"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/id/eagle/83616/estate-sale-honor-system-take-2462666",
     "lat": -2.4833826,
     "lng": 117.8902853
   },
@@ -599,6 +491,63 @@
       "2026-10-11"
     ],
     "url": "https://www.estatesales.org/estate-sales/id/emmett/83617/emmett-tools-vintage-clothing-mcdonalds-2466534",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2468405",
+    "source": "estatesales_org",
+    "title": "PATTON ESTATE SALE",
+    "company": "On The Water Estate Sales",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-10-17",
+      "2026-10-18"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/boise/83702/patton-estate-sale-2468405",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2468427",
+    "source": "estatesales_org",
+    "title": "Massive Sale - This is the Second Weekend!!!",
+    "company": "Ada Estate Liquidations",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-10-15",
+      "2026-10-16",
+      "2026-10-17",
+      "2026-10-18"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/emmett/83617/massive-sale-this-is-the-2468427",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2466559",
+    "source": "estatesales_org",
+    "title": "GRAND ESTATE SALE AT THE FOUNDERS CLUB",
+    "company": "Antiques & Chatchkes L.L.C.",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-10-16",
+      "2026-10-17",
+      "2026-10-18"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/fl/sarasota-/34240/grand-estate-sale-at-the-2466559",
     "lat": -2.4833826,
     "lng": 117.8902853
   }
