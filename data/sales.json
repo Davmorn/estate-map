@@ -37,25 +37,6 @@
     "lng": -116.219837
   },
   {
-    "id": "es-5071506",
-    "source": "estatesales",
-    "title": "Coltsfoot Estate Sale Sept. 18\u00e2\u0080\u009320 \u00e2\u0080\u0094 Star Trek, Playboys, Gold, Signed Sports Items, Furniture & More",
-    "company": "Bates Estate Sales - Boise",
-    "address": "1532 Coltsfoot Ave, Kuna, ID 83634",
-    "street": "1532 Coltsfoot Ave",
-    "city": "Kuna",
-    "state": "ID",
-    "zip": "83634",
-    "dates": [
-      "2026-09-18",
-      "2026-09-19",
-      "2026-09-20"
-    ],
-    "url": "https://www.estatesales.net/ID/Kuna/83634/5071506",
-    "lat": 43.502207,
-    "lng": -116.441806
-  },
-  {
     "id": "es-5081265",
     "source": "estatesales",
     "title": "Manchester Estate Sale | Depression Era Glass, Vintage Dishware, Pyrex, Cameras & Art",
@@ -129,113 +110,59 @@
     "lng": -116.396741
   },
   {
-    "id": "esorg-2461756",
-    "source": "estatesales_org",
-    "title": "Coltsfoot Estate Sale \u2014 Star Trek, Playboys, Gold Pieces, Signed...",
-    "company": "Bates Estate Sales - Boise",
-    "address": ", ID",
+    "id": "es-5125656",
+    "source": "estatesales",
+    "title": "Downsizing/ Moving Sale- Everything Must Go",
+    "company": null,
+    "address": "Boise, ID 83709",
     "street": "",
-    "city": "",
+    "city": "Boise",
     "state": "ID",
-    "zip": "",
+    "zip": "83709",
     "dates": [
-      "2026-09-18",
-      "2026-09-19",
-      "2026-09-20"
+      "2026-11-07",
+      "2026-11-08"
     ],
-    "url": "https://www.estatesales.org/estate-sales/id/kuna/83634/coltsfoot-estate-sale-star-trek-2461756",
-    "lat": -2.4833826,
-    "lng": 117.8902853
+    "url": "https://www.estatesales.net/ID/Boise/83709/5125656",
+    "lat": 43.560522,
+    "lng": -116.289073
   },
   {
-    "id": "esorg-2462038",
-    "source": "estatesales_org",
-    "title": "READ DESCRIPTION VINTAGE MCM & CAPODIMONTE ESTATE SALE",
-    "company": "Vintage Treasures Estate Sales",
-    "address": ", ID",
+    "id": "es-5127534",
+    "source": "estatesales",
+    "title": "Meridian Estate Sale: Dolls, Boyds Bears, Vintage Audio & Glass",
+    "company": "Sagebrush Estate Sales",
+    "address": "Meridian, ID 83646",
     "street": "",
-    "city": "",
+    "city": "Meridian",
     "state": "ID",
-    "zip": "",
+    "zip": "83646",
     "dates": [
-      "2026-09-17",
-      "2026-09-18",
-      "2026-09-19"
+      "2026-10-30",
+      "2026-10-31",
+      "2026-11-01"
     ],
-    "url": "https://www.estatesales.org/estate-sales/ca/lancaster/93534/read-description-vintage-mcm-capodimonte-2462038",
-    "lat": -2.4833826,
-    "lng": 117.8902853
+    "url": "https://www.estatesales.net/ID/Meridian/83646/5127534",
+    "lat": 43.652122,
+    "lng": -116.426272
   },
   {
-    "id": "esorg-2435568",
-    "source": "estatesales_org",
-    "title": "All ANTIQUE & VINTAGE one-day-only Sale",
-    "company": "",
-    "address": ", ID",
-    "street": "",
-    "city": "",
+    "id": "es-5130009",
+    "source": "estatesales",
+    "title": "Boise estate sale",
+    "company": "Estate Liquidators Of Idaho",
+    "address": "507 W. Howe Street, Boise, ID 83706",
+    "street": "507 W. Howe Street",
+    "city": "Boise",
     "state": "ID",
-    "zip": "",
+    "zip": "83706",
     "dates": [
-      "2026-09-18"
+      "2026-10-23",
+      "2026-10-24"
     ],
-    "url": "https://www.estatesales.org/estate-sales/id/boise/83703/all-antique-vintage-onedayonly-sale-2435568",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2463326",
-    "source": "estatesales_org",
-    "title": "Sneak Peak before the Big Sale! By Appt Only",
-    "company": "Ada Estate Liquidations",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-09-17",
-      "2026-09-18"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/id/emmett/83617/sneak-peak-before-the-big-2463326",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2462956",
-    "source": "estatesales_org",
-    "title": "South Boise Estate Sale by Idaho ETS",
-    "company": "Idaho Estate Transition Solutions",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-09-18",
-      "2026-09-19"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/id/boise/83709/south-boise-estate-sale-by-2462956",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2462617",
-    "source": "estatesales_org",
-    "title": "LIQUIDATION SALE",
-    "company": "",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-09-16",
-      "2026-09-19"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/id/boise/83706/liquidation-sale-2462617",
-    "lat": -2.4833826,
-    "lng": 117.8902853
+    "url": "https://www.estatesales.net/ID/Boise/83706/5130009",
+    "lat": 43.593143,
+    "lng": -116.187798
   },
   {
     "id": "esorg-2462667",
@@ -271,24 +198,6 @@
       "2026-09-27"
     ],
     "url": "https://www.estatesales.org/estate-sales/id/boise/83704/manchester-estate-sale-vintage-glassware-2463080",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2462913",
-    "source": "estatesales_org",
-    "title": "Grasons Premier Bold Luxury Estate Sale in W. Palmdale",
-    "company": "Grasons Co Premier High Desert",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-09-18",
-      "2026-09-19"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/ca/palmdale/93551/grasons-premier-bold-luxury-estate-2462913",
     "lat": -2.4833826,
     "lng": 117.8902853
   },
@@ -548,6 +457,81 @@
       "2026-10-18"
     ],
     "url": "https://www.estatesales.org/estate-sales/fl/sarasota-/34240/grand-estate-sale-at-the-2466559",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2469274",
+    "source": "estatesales_org",
+    "title": "A Little Whimsy, A Lot of Vintage! | BEL Estate Sales \u2013 Boise",
+    "company": "BEL Estate Sales",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-10-23",
+      "2026-10-24"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/boise/83709/a-little-whimsy-a-lot-2469274",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2469784",
+    "source": "estatesales_org",
+    "title": "The Eagles Nest",
+    "company": "Ada Estate Liquidations",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-10-23",
+      "2026-10-24",
+      "2026-10-25"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/eagle-/83616/the-eagles-nest-2469784",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2469320",
+    "source": "estatesales_org",
+    "title": "The Nest in Eagle",
+    "company": "Ada Estate Liquidations",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-10-23",
+      "2026-10-24",
+      "2026-10-25"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/eagle-/83616/the-nest-in-eagle-2469320",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2469896",
+    "source": "estatesales_org",
+    "title": "Estate Sale",
+    "company": "",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-10-30",
+      "2026-10-31",
+      "2026-11-01"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/kuna/83634/estate-sale-2469896",
     "lat": -2.4833826,
     "lng": 117.8902853
   }
