@@ -1,24 +1,5 @@
 [
   {
-    "id": "es-5047020",
-    "source": "estatesales",
-    "title": "Manchester Boise Estate Sale \u00e2\u0080\u0094 Furniture, Tools, Kitchen, D\u00c3\u00a9cor & Household Finds",
-    "company": "Bates Estate Sales - Boise",
-    "address": "Boise, ID 83704",
-    "street": "",
-    "city": "Boise",
-    "state": "ID",
-    "zip": "83704",
-    "dates": [
-      "2026-09-25",
-      "2026-09-26",
-      "2026-09-27"
-    ],
-    "url": "https://www.estatesales.net/ID/Boise/83704/5047020",
-    "lat": 43.632247,
-    "lng": -116.284853
-  },
-  {
     "id": "es-5064363",
     "source": "estatesales",
     "title": "Maggie Mae  Estate Sale",
@@ -35,25 +16,6 @@
     "url": "https://www.estatesales.net/ID/Boise/83705/5064363",
     "lat": 43.560609,
     "lng": -116.219837
-  },
-  {
-    "id": "es-5081265",
-    "source": "estatesales",
-    "title": "Manchester Estate Sale | Depression Era Glass, Vintage Dishware, Pyrex, Cameras & Art",
-    "company": "Bates Estate Sales - Boise",
-    "address": "3335 Manchester St, Boise, ID 83704",
-    "street": "3335 Manchester St",
-    "city": "Boise",
-    "state": "ID",
-    "zip": "83704",
-    "dates": [
-      "2026-09-25",
-      "2026-09-26",
-      "2026-09-27"
-    ],
-    "url": "https://www.estatesales.net/ID/Boise/83704/5081265",
-    "lat": 43.63506690000001,
-    "lng": -116.2888942
   },
   {
     "id": "es-5093688",
@@ -132,8 +94,8 @@
     "source": "estatesales",
     "title": "Meridian Estate Sale: Dolls, Boyds Bears, Vintage Audio & Glass",
     "company": "Sagebrush Estate Sales",
-    "address": "Meridian, ID 83646",
-    "street": "",
+    "address": "2229 E. Clarene Street, Meridian, ID 83646",
+    "street": "2229 E. Clarene Street",
     "city": "Meridian",
     "state": "ID",
     "zip": "83646",
@@ -143,8 +105,8 @@
       "2026-11-01"
     ],
     "url": "https://www.estatesales.net/ID/Meridian/83646/5127534",
-    "lat": 43.652122,
-    "lng": -116.426272
+    "lat": 43.622575,
+    "lng": -116.367296
   },
   {
     "id": "es-5130009",
@@ -165,58 +127,22 @@
     "lng": -116.187798
   },
   {
-    "id": "esorg-2462667",
-    "source": "estatesales_org",
-    "title": "Vintage Vibes & Timeless Treasures in Garden City",
-    "company": "BEL Estate Sales",
-    "address": ", ID",
+    "id": "es-5138340",
+    "source": "estatesales",
+    "title": "Nice Hillcrest View Dr 2-Day Estate Sale",
+    "company": "Americana Estate Services",
+    "address": "Boise, ID 83705",
     "street": "",
-    "city": "",
+    "city": "Boise",
     "state": "ID",
-    "zip": "",
+    "zip": "83705",
     "dates": [
-      "2026-09-25",
-      "2026-09-26"
+      "2026-11-20",
+      "2026-11-21"
     ],
-    "url": "https://www.estatesales.org/estate-sales/id/garden-city/83714/vintage-vibes-timeless-treasures-in-2462667",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2463080",
-    "source": "estatesales_org",
-    "title": "Manchester Estate Sale \u2013 Vintage Glassware, Midcentury Dishes,...",
-    "company": "Bates Estate Sales - Boise",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-09-25",
-      "2026-09-26",
-      "2026-09-27"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/id/boise/83704/manchester-estate-sale-vintage-glassware-2463080",
-    "lat": -2.4833826,
-    "lng": 117.8902853
-  },
-  {
-    "id": "esorg-2464831",
-    "source": "estatesales_org",
-    "title": "ESTATE SALE AND OPEN HOUSE",
-    "company": "Idaho Estate Transition Solutions",
-    "address": ", ID",
-    "street": "",
-    "city": "",
-    "state": "ID",
-    "zip": "",
-    "dates": [
-      "2026-09-26"
-    ],
-    "url": "https://www.estatesales.org/estate-sales/id/caldwell/83605/estate-sale-and-open-house-2464831",
-    "lat": -2.4833826,
-    "lng": 117.8902853
+    "url": "https://www.estatesales.net/ID/Boise/83705/5138340",
+    "lat": 43.560609,
+    "lng": -116.219837
   },
   {
     "id": "esorg-2464585",
@@ -532,6 +458,61 @@
       "2026-11-01"
     ],
     "url": "https://www.estatesales.org/estate-sales/id/kuna/83634/estate-sale-2469896",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2470281",
+    "source": "estatesales_org",
+    "title": "The Ultimate Man Cave & More Estate Sale",
+    "company": "Estate Sales & More",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-10-31",
+      "2026-11-01"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/boise/83704/the-ultimate-man-cave-more-2470281",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2470866",
+    "source": "estatesales_org",
+    "title": "Nice W Hillcrest View Dr 2-Day Estate Sale",
+    "company": "Americana Estate Services",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-11-20",
+      "2026-11-21"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/id/boise-/83705/nice-w-hillcrest-view-dr-2470866",
+    "lat": -2.4833826,
+    "lng": 117.8902853
+  },
+  {
+    "id": "esorg-2469835",
+    "source": "estatesales_org",
+    "title": "Affordable Luxury Estate Sale Kickingbird Estates in Edmond",
+    "company": "Treasure Pros Estate Sales",
+    "address": ", ID",
+    "street": "",
+    "city": "",
+    "state": "ID",
+    "zip": "",
+    "dates": [
+      "2026-10-30",
+      "2026-10-31",
+      "2026-11-01"
+    ],
+    "url": "https://www.estatesales.org/estate-sales/ok/edmond/73034/affordable-luxury-estate-sale-kickingbird-2469835",
     "lat": -2.4833826,
     "lng": 117.8902853
   }
